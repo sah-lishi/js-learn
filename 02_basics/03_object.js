@@ -10,7 +10,12 @@ const myObject = {
 }
 // console.log(myObject)
 
-Object.freeze(myObject)// so that values can't be changed
+// Object.freeze(myObject)// so that values can't be changed
 
-myObject.email = "hdhsk@gmail.in"
-console.log(myObject.email);
+// myObject.email = "hdhsk@gmail.in"
+// console.log(myObject.email);
+
+myObject.myfunction1 = function () {
+    return `This is my function1, ${this.age}`;
+}
+console.log(myObject.myfunction1());
