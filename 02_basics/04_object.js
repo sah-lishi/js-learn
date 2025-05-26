@@ -43,5 +43,14 @@ const users = [
 ]
 // console.log(users[1].id);
 
+// take out all keys of an object
+console.log(Object.keys(user2));
+// takeout all values of an object
+console.log(Object.values(user2));
+// keys and values both of an object
+console.log(Object.entries(user2));
+// to check if particular property is present or not in an object
+console.log(user2.hasOwnProperty('age'));
+
 
  
